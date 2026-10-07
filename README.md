@@ -19,7 +19,8 @@
   <img alt="Android 7+" src="https://img.shields.io/badge/Android-7.0%2B-4FD1A5?style=flat-square">
   <img alt="Gratis" src="https://img.shields.io/badge/precio-gratis-FFB547?style=flat-square">
   <img alt="Sin anuncios" src="https://img.shields.io/badge/sin-anuncios-7CC4FF?style=flat-square">
-  <img alt="Idiomas" src="https://img.shields.io/badge/idiomas-español%20·%20english-B79CFF?style=flat-square">
+  <img alt="Idiomas" src="https://img.shields.io/badge/idiomas-ES%20·%20EN%20·%20PT%20·%20FR-B79CFF?style=flat-square">
+  <img alt="Versión" src="https://img.shields.io/badge/versión-0.3.0-5EE6D0?style=flat-square">
 </p>
 
 ---
@@ -64,6 +65,10 @@ Solo queda **FORGI**, el pequeño engranaje que Vega dejó encendido. Contigo co
 | 🔒 | **Encapsulación** | La batería es privada: Ø no puede tocarla |
 | 🌳 | **Herencia** | El Jardinero hereda de Robot y aprende a regar. ¡Y puedes crear tus propias subclases! |
 | ✨ | **Polimorfismo** | Una sola orden, `trabajar()`, y cada robot responde a su manera |
+| 🔁 | **Bucles y condiciones** | `repetir(4) { … }` y `si (puedeRecoger())`: programas cortos que piensan |
+| 🛩️ | **Interfaces** | `implements Volador`: un contrato que cualquier clase puede firmar para cruzar la niebla |
+| 🧩 | **Composición** | Módulos que se acoplan a un robot: Grúa, Regadera, Llave… el robot *tiene* una pieza |
+| 🏗️ | **Constructores y sobrecarga** | `RobotLigero(capacidad, inicio)`: decides dónde nace cada objeto |
 
 <p align="center">
   <img src="assets/inheritance.png" width="200" alt="Árbol de herencia">
@@ -72,9 +77,31 @@ Solo queda **FORGI**, el pequeño engranaje que Vega dejó encendido. Contigo co
   <img src="assets/concepts.png" width="200" alt="Conceptos de POO">
 </p>
 
+## Novedades de la versión 0.3
+
+<p align="center">
+  <img src="assets/loops.png" width="200" alt="Bucles">
+  <img src="assets/interface.png" width="200" alt="Interfaz Volador">
+  <img src="assets/modules.png" width="200" alt="Módulos">
+  <img src="assets/constructor.png" width="200" alt="Constructores">
+</p>
+
+🌆 **Mundo 6 · La Ciudad Alta**: seis encargos nuevos con bucles, condiciones, interfaces, composición y constructores, y el desenlace de la historia.<br>
+📅 **Reto diario**: un encargo nuevo cada día, con racha de días seguidos y un recordatorio en el móvil si aún no lo has hecho.<br>
+🌍 **Portugués y francés**, además de español e inglés.<br>
+🎬 **Créditos finales** y transiciones nuevas entre pantallas.
+
+<p align="center">
+  <img src="assets/home.png" width="200" alt="Inicio con el reto diario">
+  <img src="assets/daily.png" width="200" alt="Reto diario">
+  <img src="assets/conditions.png" width="200" alt="Condiciones">
+  <img src="assets/concepts.png" width="200" alt="Conceptos">
+</p>
+
 ## Qué incluye
 
-🗺️ **5 mundos y 27 encargos**, de lo más básico a equipos de robots que trabajan a la vez.<br>
+🗺️ **6 mundos y 33 encargos**, de lo más básico a equipos de robots que trabajan a la vez.<br>
+📅 **Reto diario** con racha y recordatorio.<br>
 🔥 **Desvíos opcionales**: niveles más difíciles que esconden fragmentos de la historia.<br>
 💻 **Tu lenguaje favorito**: ve tu código en **Dart, Python, Java, JavaScript o C#**.<br>
 📖 **Una historia oscura** contada en escenas, que puedes releer en el **Archivo de Vega**.<br>
@@ -98,10 +125,10 @@ Ve a **[Releases](https://github.com/AndyCG03/BotForger-Game/releases/latest)** 
 
 | Archivo | Para quién | Tamaño |
 | --- | --- | --- |
-| **`BotForger-v0.2.0.apk`** | **Si no sabes cuál elegir.** Funciona en cualquier móvil Android | ~54 MB |
-| `BotForger-v0.2.0-arm64-v8a.apk` | Móviles modernos (la mayoría desde 2017) | ~21 MB |
-| `BotForger-v0.2.0-armeabi-v7a.apk` | Móviles antiguos o de gama baja | ~19 MB |
-| `BotForger-v0.2.0-x86_64.apk` | Emuladores y algunos equipos con procesador Intel | ~23 MB |
+| **`BotForger-v0.3.0.apk`** | **Si no sabes cuál elegir.** Funciona en cualquier móvil Android | ~56 MB |
+| `BotForger-v0.3.0-arm64-v8a.apk` | Móviles modernos (la mayoría desde 2017) | ~22 MB |
+| `BotForger-v0.3.0-armeabi-v7a.apk` | Móviles antiguos o de gama baja | ~20 MB |
+| `BotForger-v0.3.0-x86_64.apk` | Emuladores y algunos equipos con procesador Intel | ~24 MB |
 
 **Cómo instalarlo:**
 
@@ -110,12 +137,14 @@ Ve a **[Releases](https://github.com/AndyCG03/BotForger-Game/releases/latest)** 
 3. Pulsa **Instalar** y ¡a forjar!
 
 > [!NOTE]
-> Requiere **Android 7.0 o superior**. Es una versión de prueba firmada fuera de Google Play: cuando llegue a la tienda, puede que haya que desinstalar esta versión antes de instalar la oficial (el progreso se guarda en el móvil).
+> Requiere **Android 7.0 o superior**. Si ya tienes la 0.2, instala la 0.3 encima: conservas tu progreso. La primera vez te pedirá permiso para enviarte el recordatorio del reto diario (puedes desactivarlo cuando quieras).
+>
+>  Es una versión de prueba firmada fuera de Google Play: cuando llegue a la tienda, puede que haya que desinstalar esta versión antes de instalar la oficial (el progreso se guarda en el móvil).
 
 ## Próximamente
 
-- 📅 Reto diario y logros
-- 🧩 Mundo 6: interfaces y composición
+- 🏆 Logros
+- 🛠️ Editor de niveles para retar a tus amigos
 - ☁️ Guardado en la nube
 - 🛒 Google Play
 
