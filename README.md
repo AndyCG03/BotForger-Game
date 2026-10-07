@@ -128,12 +128,14 @@ Ve a **[Releases](https://github.com/AndyCG03/BotForger-Game/releases/latest)** 
 
 | Archivo | Para quién | Tamaño |
 | --- | --- | --- |
-| **`BotForger-v0.4.0.apk`** | **Si no sabes cuál elegir.** Para móviles compatibles con Android 7+ | ~56 MB |
+| **`BotForger-v0.4.0.apk`** | **Si no sabes cuál elegir.** Para móviles compatibles con Android 7+ | ~60 MB |
 | `BotForger-v0.4.0-arm64-v8a.apk` | Móviles modernos (la mayoría desde 2017) | ~24 MB |
 | `BotForger-v0.4.0-armeabi-v7a.apk` | Móviles antiguos o de gama baja | ~21 MB |
 | `BotForger-v0.4.0-x86_64.apk` | Emuladores y algunos equipos con procesador Intel | ~25 MB |
 
 **Cómo instalarlo:**
+
+El APK universal de la versión 0.4 se ha corregido para incluir los iconos, las tipografías y el sonido. Si instalaste el primer archivo y ves símbolos incorrectos, descárgalo de nuevo e instálalo encima, sin desinstalar el juego, para conservar tu progreso. Los APK por arquitectura no estaban afectados.
 
 1. Descarga el APK desde el móvil.
 2. Ábrelo. Si Android lo pide, permite **instalar aplicaciones desconocidas** para tu navegador o gestor de archivos.
