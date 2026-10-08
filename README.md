@@ -11,12 +11,13 @@
 
 <p align="center">
   <a href="https://github.com/AndyCG03/BotForger-Game/releases/latest">
-    <img alt="Descargar" src="https://img.shields.io/badge/Descargar-APK%20para%20Android-FF6848?style=for-the-badge&logo=android&logoColor=white">
+    <img alt="Descargar" src="https://img.shields.io/badge/Descargar-Android%20·%20Windows%20·%20Linux-FF6848?style=for-the-badge&logo=android&logoColor=white">
   </a>
 </p>
 
 <p align="center">
   <img alt="Android 7+" src="https://img.shields.io/badge/Android-7.0%2B-4FD1A5?style=flat-square">
+  <img alt="Windows y Linux" src="https://img.shields.io/badge/PC-Windows%20·%20Linux-7CC4FF?style=flat-square">
   <img alt="Gratis" src="https://img.shields.io/badge/precio-gratis-FFB547?style=flat-square">
   <img alt="Sin anuncios" src="https://img.shields.io/badge/sin-anuncios-7CC4FF?style=flat-square">
   <img alt="Idiomas" src="https://img.shields.io/badge/idiomas-ES%20·%20EN%20·%20PT%20·%20FR-B79CFF?style=flat-square">
@@ -145,6 +146,23 @@ El APK universal de la versión 0.4 se ha corregido para incluir los iconos, las
 > Requiere **Android 7.0 o superior**. Si ya tienes una versión anterior, instala la 0.4 encima usando el mismo tipo de APK (universal o la misma arquitectura): conservas tu progreso. La primera vez te pedirá permiso para enviarte el recordatorio del reto diario (puedes desactivarlo cuando quieras).
 >
 >  Es una versión de prueba firmada fuera de Google Play: cuando llegue a la tienda, puede que haya que desinstalar esta versión antes de instalar la oficial (el progreso se guarda en el móvil).
+
+## Jugar en PC
+
+También puedes jugar en el ordenador. En **[Releases](https://github.com/AndyCG03/BotForger-Game/releases/latest)** descarga:
+
+| Archivo | Para quién |
+| --- | --- |
+| **`BotForger-v0.4.0-windows-setup.exe`** | **Windows 10 u 11 (recomendado):** instalador con acceso en el menú Inicio y desinstalador |
+| `BotForger-v0.4.0-windows-x64.zip` | Windows sin instalar (versión portátil) |
+| **`BotForger-v0.4.0-linux-x64.tar.gz`** | Linux de 64 bits con GTK 3 (Ubuntu 22.04+, Debian 12, Fedora 38…) |
+
+**Windows:** abre `BotForger-v0.4.0-windows-setup.exe` y sigue el asistente; no pide permisos de administrador. Si prefieres no instalar nada, descomprime el `.zip` y abre `botforger.exe`. Si SmartScreen avisa de que el programa no está firmado, pulsa «Más información» y luego «Ejecutar de todas formas».
+
+**Linux:** descomprime con `tar -xzf BotForger-v0.4.0-linux-x64.tar.gz` y ejecuta `./botforger` dentro de la carpeta. El `LEEME.txt` explica cómo añadirlo al menú de aplicaciones.
+
+> [!NOTE]
+> La interfaz se adapta al tamaño de la ventana, incluso a pantalla completa. En PC el progreso se guarda en ese ordenador, por separado del móvil. El recordatorio del reto diario solo está en Android.
 
 ## Próximamente
 
